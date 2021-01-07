@@ -31,7 +31,7 @@ def randomMusic(search):
             if str(s.get("videoId")) != "None" :
                 print("Title: "+s.get("title"))
                 print("Video ID : "+str(s.get("videoId")))
-                os.system("notify-send \"Title:" + s.get("title")+"\"")
+                os.system("notify-send \"Song Name : " + s.get("title")+"\"")
                 os.system(browser+" music.youtube.com/watch?v="+s.get("videoId")+" &")
             else:
                 rand += 1
