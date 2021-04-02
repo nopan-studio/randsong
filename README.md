@@ -2,16 +2,25 @@
 Description : 
 instantly spawns a random song of your artist choice in your browser using ytmusicapi </br>
 
-Dependencies: 
-ytmusicapi - install using pip 
+Dependencies: </br>
+for linux.</br>
+ytmusicapi - install using pip</br>
 
-Default Browser:
-Chromium - kindly edit the main.py browser variable in to the browser you use.
+for windows users.</br>
+ytmusicapi - install using pip</br>
+win10toast - install using pip</br>
 
-Usage :
-python main.py "artist_name"
+Default Browser:</br>
+for linux.</br>
+Chromium - kindly edit the main.py browser variable in to the browser you use.</br>
 
-Example : python main.py "twice"
+for windows10.</br>
+automatically uses the default browser.</br>
 
-Tips: bind this script into a keyboard key, in my case i used mod+t in my i3wm config. 
+Usage :</br>
+python main.py "artist_name"</br>
+
+Example : python main.py "twice"</br>
+
+Tips: bind this script into a keyboard key, in my case i used mod+t in my i3wm config. </br>
 
